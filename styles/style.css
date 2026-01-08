@@ -13,6 +13,7 @@
 .btn:hover{
     background-color: #4f5fc6;
     font-size: 14px;
+     cursor: pointer;
   
 }
 
@@ -46,6 +47,7 @@ align-items: center;
 
 .nav-elements li a:hover{
     color: red;
+    cursor: pointer;
 
 }
 

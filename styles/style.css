@@ -1,0 +1,53 @@
+
+
+/* shared items */
+
+.btn{
+    background-color: #30B868;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #4f5fc6;
+    font-size: 14px;
+  
+}
+
+
+
+
+
+
+
+.navbar{
+ 
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.nav-elements{
+    display: flex;
+    
+}
+
+.nav-elements li{
+    list-style: none;
+}
+
+.nav-elements li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-elements li a:hover{
+    color: red;
+
+}
+
+
+

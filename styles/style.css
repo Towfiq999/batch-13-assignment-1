@@ -78,6 +78,20 @@ align-items: center;
 
 /* banner section starts */
 
+ 
+/*     header, footer {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1360px;
+  margin: auto;
+}
+ */
+ 
+
+
 .banner{
  padding: 70px 120px 134px 120px;
 
@@ -360,21 +374,21 @@ main .all-cards .card4 img{
 
 
  
- main .all-cards .card2 .card1-title{
+ main .all-cards .card2 .card2-title{
  margin: 0 auto;
     align-items: center;
     font-weight:600px ;
     font-size: 24px;
  }
 
-  main .all-cards .card3 .card1-title{
+  main .all-cards .card3 .card3-title{
  margin: 0 auto;
     align-items: center;
     font-weight:600px ;
     font-size: 24px;
  }
 
-  main .all-cards .card4 .card1-title{
+  main .all-cards .card4 .card4-title{
  margin: 0 auto;
     align-items: center;
     font-weight:600px ;
@@ -389,19 +403,19 @@ main .all-cards .card4 img{
    }
 
 
-    main .all-cards .card2 .card1-text{
+    main .all-cards .card2 .card2-text{
     line-height: 20px;
     font-size: 16px;
 
    }
 
-    main .all-cards .card3 .card1-text{
+    main .all-cards .card3 .card3-text{
     line-height: 20px;
     font-size: 16px;
 
    }
 
-    main .all-cards .card4 .card1-text{
+    main .all-cards .card4 .card4-text{
     line-height: 20px;
     font-size: 16px;
 

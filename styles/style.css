@@ -134,7 +134,7 @@ background-position: center;
 .banner .banner-btn {
 
 
-    border: 2px solid red;
+  /*   border: 2px solid red; */
     background-color: #30B868;
     color: white;
     padding: 12px 16px;
@@ -153,7 +153,7 @@ background-position: center;
 
 
   .banner .banner-btn2{
-     border: 2px solid red;
+  /*    border: 2px solid red; */
  background-color:transparent;
     color: white;
     padding: 12px 16px;
@@ -435,12 +435,14 @@ main .all-cards .card4 img{
     font-weight: 500;
     font-size: 16px;
     color: #30B868;
+    margin-bottom: 0px;
         
      }
 
    .full-brain  .youre-second{
     font-weight: bold;
     font-size: 48px;
+    margin-top: 10px;
    }
 
   .full-brain .personal{
@@ -475,6 +477,69 @@ main .all-cards .card4 img{
 }
 
 
+
+/* ready section starts here */
+
+
+
+    .ready-container{
+
+        margin-bottom: 120px;
+
+    }
+
+
+
+
+
+.full-ready{
+/* display: flex;
+flex-direction: column; */
+margin: 0 auto;
+/* border: 2px solid red; */
+border-radius: 12px;
+text-align: center;
+/* width: ; */
+/* max-width: 1360px 384px; */
+
+background-color:#f2f4f3;
+padding: 40px 20px;
+
+}
+
+.full-ready .ready{
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+ .full-ready .join{
+    font-size: 16px;
+    color: #627382;
+     margin-bottom: 24px;
+
+  }
+
+ .full-ready .ready-btn{
+      background-color: #30B868;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+
+  .ready-btn:hover{
+
+    background-color: #4f5fc6;
+    font-size: 17px;
+     cursor: pointer;
+  }
+
+
+  .Free-during{
+    font-size: 16px;
+  }
 
 
 

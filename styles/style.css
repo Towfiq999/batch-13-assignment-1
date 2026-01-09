@@ -24,11 +24,12 @@
     padding: 12px 16px;
     border-radius: 5px;
     border: none;
+    font-size: 16px;
 }
 
 .btn:hover{
     background-color: #4f5fc6;
-    font-size: 14px;
+    font-size: 17px;
      cursor: pointer;
   
 }
@@ -50,20 +51,25 @@ align-items: center;
 .nav-elements{
     display: flex;
     
+    
 }
 
 .nav-elements li{
     list-style: none;
+    
 }
 
 .nav-elements li a{
     text-decoration: none;
     color: black;
+     
+  
 }
 
 .nav-elements li a:hover{
     color: red;
     cursor: pointer;
+    
 
 }
 
@@ -94,9 +100,9 @@ background-position: center;
     width: 195px;
     padding: 7px;
     margin: 0 auto;
-    color: #30B868;
+    color: #198345;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 400;
     text-align: center;
 
 }
@@ -106,7 +112,7 @@ background-position: center;
     margin: 0 auto;
     text-align: center;
     margin-top: 15px;
-    font-size:45px;
+    font-size:62px;
 
   /*   border: 2px solid red; */
 
@@ -122,6 +128,7 @@ background-position: center;
     font-weight: 100;
     text-align: center;
     line-height: 25px;
+    font-size: 16px;
 }
 
 .banner .banner-btn {
@@ -137,12 +144,13 @@ background-position: center;
     padding: 12px 16px;
     border-radius: 5px;
     border: none;
+    font-size: 16px;
 
  }
 
 .banner-btn:hover{
     background-color: #4f5fc6;
-    font-size: 14px;
+    font-size: 17px;
      cursor: pointer;
 
 }
@@ -156,13 +164,14 @@ background-position: center;
     border-radius: 5px;
     border: 1px solid white;
     margin-left: 7px;
+    font-size: 16px;
 
 
   }
 
   .banner-btn2:hover{
       background-color: #4f5fc6;
-    font-size: 14px;
+    font-size: 17px;
      cursor: pointer;
 
 
@@ -173,6 +182,235 @@ background-position: center;
     text-align: center;
   
   }
+
+
+
+/* main section starts */
+
+
+main{
+    width: 95%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+   
+    margin: 0 auto;
+}
+
+main .notes{
+    margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+
+ main .youre{
+ text-align: center;
+ font-size: 16px;
+ margin-bottom: 44px;
+  }
+
+
+
+
+main .all-cards{
+    display: flex;
+   /*  align-items: center; */
+    gap: 24px;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.card1{
+    
+   
+  display: flex;
+  flex-direction: column;    
+  align-items: center;        
+  justify-content: center;    
+  text-align: center; 
+  
+  box-shadow: 10px 10px 10px rgba(180, 174, 174, 0.447); 
+
+  width: 322px 300px;
+  padding: 24px;
+  margin: px;
+
+  border-radius: 10px;
+    
+}
+
+.card2{
+    border-radius: 10px;
+  display: flex;
+  flex-direction: column;    
+  align-items: center;        
+  justify-content: center;    
+  text-align: center; 
+   box-shadow: 10px 10px 10px rgba(180, 174, 174, 0.447); 
+
+  width: 322px 300px;
+  padding: 24px;
+  margin: px;
+}
+
+.card3{
+     border-radius: 10px;
+  display: flex;
+  flex-direction: column;    
+  align-items: center;        
+  justify-content: center;    
+  text-align: center; 
+  box-shadow: 10px 10px 10px rgba(180, 174, 174, 0.447);  
+
+  width: 322px 300px;
+  padding: 24px;
+  margin: px;
+}
+
+.card4{
+     border-radius: 10px;
+  display: flex;
+  flex-direction: column;    
+  align-items: center;        
+  justify-content: center;    
+  text-align: center; 
+   box-shadow: 10px 10px 10px rgba(180, 174, 174, 0.447); 
+
+  width: 322px 300px;
+  padding: 24px;
+  margin: px;
+}
+
+
+.card1:hover{
+    background-color:#82d6a5;
+}
+
+.card2:hover{
+    background-color:#82d6a5;
+}
+
+.card3:hover{
+    background-color:#82d6a5;
+}
+
+.card4:hover{
+    background-color:#82d6a5;
+}
+
+
+main .all-cards .card1 img{
+    background-color: red;
+    border-radius: 50%;
+    padding: 12px;
+    max-width: 60px;
+  
+  margin-bottom: 10px;
+
+}
+
+
+main .all-cards .card2 img{
+    background-color: red;
+    border-radius: 50%;
+    padding: 12px;
+    max-width: 60px;
+  
+  margin-bottom: 10px;
+
+}
+
+main .all-cards .card3 img{
+    background-color: red;
+    border-radius: 50%;
+    padding: 12px;
+    max-width: 60px;
+  
+  margin-bottom: 10px;
+
+}
+
+main .all-cards .card4 img{
+    background-color: red;
+    border-radius: 50%;
+    padding: 12px;
+    max-width: 60px;
+  
+  margin-bottom: 10px;
+
+}
+
+
+
+
+
+ main .all-cards .card1 .card1-title{
+ margin: 0 auto;
+    align-items: center;
+    font-weight:600px ;
+    font-size: 24px;
+ }
+
+
+ 
+ main .all-cards .card2 .card1-title{
+ margin: 0 auto;
+    align-items: center;
+    font-weight:600px ;
+    font-size: 24px;
+ }
+
+  main .all-cards .card3 .card1-title{
+ margin: 0 auto;
+    align-items: center;
+    font-weight:600px ;
+    font-size: 24px;
+ }
+
+  main .all-cards .card4 .card1-title{
+ margin: 0 auto;
+    align-items: center;
+    font-weight:600px ;
+    font-size: 24px;
+ }
+
+  main .all-cards .card1 .card1-text{
+    
+    line-height: 20px;
+    font-size: 16px;
+
+   }
+
+
+    main .all-cards .card2 .card1-text{
+    line-height: 20px;
+    font-size: 16px;
+
+   }
+
+    main .all-cards .card3 .card1-text{
+    line-height: 20px;
+    font-size: 16px;
+
+   }
+
+    main .all-cards .card4 .card1-text{
+    line-height: 20px;
+    font-size: 16px;
+
+   }
+
+
+
+
+
 
 
 

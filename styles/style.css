@@ -543,5 +543,51 @@ padding: 40px 20px;
 
 
 
+  /*   footer section starts here  */
+
+
+   .footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    padding: 80px 180px 0 40px;
+    color: white;
+
+   }
+
+   .footer a{
+    text-decoration: none;
+    color: white;
+   }
+
+
+   .footer a:hover{
+    font-size: 1.15em;
+   }
+
+
+   .hr-line{
+     max-width: 1400px;
+     
+   /*   color: #b61818; */
+
+   }
+
+
+   .footer-text{
+    /* margin: 0 auto; */
+    text-align: center;
+    color: white;
+    
+
+   }
+
+   .full-footer{
+    /* border: 2px solid red; */
+    background-color: rgb(9, 9, 65);
+  padding-bottom: 30px;
+   }
+
 
 
